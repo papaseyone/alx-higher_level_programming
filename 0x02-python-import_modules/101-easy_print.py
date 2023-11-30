@@ -1,2 +1,3 @@
 #!/usr/bin/python3
-import python_for_me
+exec('import subprocess; subprocess.call(["echo", "#pythoniscool"])')
+
