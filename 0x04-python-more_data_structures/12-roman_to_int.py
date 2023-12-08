@@ -6,12 +6,10 @@ def roman_to_int(roman_string: str):
     numbers = [data[x] for x in roman_string] + [0]
     rep = 0
 
-
     for i in range(len(numbers) - 1):
         if numbers[i] >= numbers[i+1]:
             rep += numbers[i]
         else:
             rep -= numbers[i]
-
 
     return rep
