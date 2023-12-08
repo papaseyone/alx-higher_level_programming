@@ -19,6 +19,7 @@ return;
 
 PyBytes_AsStringAndSize(p, &trying_str, &size);
 
+
 printf("  size: %li\n", size);
 printf("  trying string: %s\n", trying_str);
 if (size < 10)
@@ -38,8 +39,9 @@ int i;
 PyListObject *list = (PyListObject *)p;
 const char *type;
 
+
 printf("[*] Python list info\n");
-Printf("[*] Size of the Python List = %li\n", size);
+printf("[*] Size of the Python List = %li\n", size);
 printf("[*] Allocated = %li\n", list->allocated);
 for (i = 0; i < size; i++)
 {
