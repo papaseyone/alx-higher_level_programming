@@ -1,20 +1,20 @@
 #!/usr/bin/python3
-"""Represents a square and its properties."""
+
+"""Defines a Square class representing a square."""
 
 
 class Square:
-    """
-    Models a square with a single side length.
+    """Represent a square.
 
     Attributes:
-        side_length: (private) The length of one side of the square.
+        size (int): The size of the square (length of one side).
     """
 
-    def __init__(self, side_length):
-        """
-        Initializes a new Square object.
+    def __init__(self, size):
+        """Initialize a new Square instance.
 
         Args:
-            side_length: The length of one side of the square.
+            size (int): The size of the square
+                (length of one side).
         """
-        self.__side_length = side_length
+        self.__size = size
