@@ -3,10 +3,9 @@
 
 
 class LockedClass:
-    """Prevent the addition of new attributes except for 'first_name'.
-
-    Attributes:
-        __slots__ (list): A list containing only 'first_name' as an allowed attribute.
+    """
+    Prevent the user from instantiating new LockedClass attributes
+    for anything but attributes called 'first_name'.
     """
 
     __slots__ = ["first_name"]
