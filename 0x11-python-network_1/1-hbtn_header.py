@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-"""Script that takes in URL, send request and diplays 
-value of X-Request-Id varible in header response .
+"""Script that takes in URL, send request and diplays
+value of X-Request-Id varible in header response.
 """
 import sys
 import urllib.request
