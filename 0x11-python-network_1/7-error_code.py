@@ -1,7 +1,5 @@
 #!/usr/bin/python3
-"""Sends a request to URL and displays body of response.
-Usage: ./7-error_code.py <URL>
-  - Handles HTTP errors.
+"""Sends request to URL and displays body of response.
 """
 import sys
 import requests
