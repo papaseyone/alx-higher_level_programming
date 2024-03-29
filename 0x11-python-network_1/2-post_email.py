@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 """Sends POST request to URL with an email.
-Usage: ./2-post_email.py <URL> <email>
-  - Displays the body of the response.
+Displays the body of the response.
 """
 import sys
 import urllib.parse
